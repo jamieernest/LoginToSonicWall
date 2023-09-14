@@ -1,0 +1,4 @@
+sonicwallLogin:
+  username: joe
+  password: mama
+  url: https://sonicwall.joemama.com/auth1.html
