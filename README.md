@@ -23,4 +23,8 @@
  - cos it not running
  - if you want it to run on startup, make a shortcut of run.bat and put it in %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
 
-### Made with ❤️️ <small>and frustration</small> - jamieernest
+### Made with ❤️️ 
+
+<small>and frustration</small>
+
+### - jamieernest
