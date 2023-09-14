@@ -5,6 +5,7 @@
 # so no binaries
 
 *.exe
+chromedriver-*
 
 # not interested in your logs
 *.log

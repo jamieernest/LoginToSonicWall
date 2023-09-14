@@ -1,5 +1,4 @@
 from selenium import webdriver
-import chromedriver_autoinstaller
 import yaml
 from time import sleep
 
@@ -7,8 +6,6 @@ conf = yaml.safe_load(open('loginDetails.yml'))
 username = conf['sonicwallLogin']['username']
 password = conf['sonicwallLogin']['password']
 url = conf['sonicwallLogin']['url']
-
-chromedriver_autoinstaller.install()
 
 driver = webdriver.Chrome()
 

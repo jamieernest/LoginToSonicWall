@@ -1,3 +1,4 @@
 selenium
 chromedriver_autoinstaller
 pyyaml
+wget
