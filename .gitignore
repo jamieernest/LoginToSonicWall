@@ -9,3 +9,7 @@ chromedriver-*
 
 # not interested in your logs
 *.log
+
+
+# misc
+*.chromedriver
