@@ -6,6 +6,7 @@
 
 ## How do i use??
 
+ - Download/Update to lastest version of chrome
  - Install python3
  - Run setup.bat
  - Run run.bat
@@ -20,6 +21,6 @@
 ## y it no work after restart
 
  - cos it not running
- - if you want it to run on startup, run `startup.bat` and it will create a shortcut in your startup folder
+ - if you want it to run on startup, make a shortcut of run.bat and put it in %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
 
 ### Made with ❤️️ - jamieernest

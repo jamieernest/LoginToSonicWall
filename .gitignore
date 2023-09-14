@@ -5,3 +5,6 @@
 # so no binaries
 
 *.exe
+
+# not interested in your logs
+*.log
