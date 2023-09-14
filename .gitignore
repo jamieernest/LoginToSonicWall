@@ -1,3 +1,7 @@
 # so my password doesnt get exposed
 
 *.yml
+
+# so no binaries
+
+*.exe
