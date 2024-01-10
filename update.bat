@@ -1,2 +1,2 @@
 git pull
-python3 downloadDriver.py
+python downloadDriver.py

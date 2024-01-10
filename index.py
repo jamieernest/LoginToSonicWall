@@ -1,5 +1,6 @@
 from selenium import webdriver
 import yaml
+import os
 from time import sleep
 
 conf = yaml.safe_load(open('loginDetails.yml'))
@@ -15,8 +16,10 @@ def login(url,usernameId, username, passwordId, password, submit_buttonId):
    driver.find_element("name", usernameId).send_keys(username)
    driver.find_element("name", passwordId).send_keys(password)
    driver.find_element("name", submit_buttonId).click()
-   sleep(3600)
-   login(url, "userName", username, "pwd", password, "Submit")
 
-   
-login(url, "userName", username, "pwd", password, "Submit")
+
+for i in range(10):
+   login(url, "userName", username, "pwd", password, "Submit")
+   sleep(3600)
+driver.quit()
+os.system("python index.py")
