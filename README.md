@@ -28,3 +28,5 @@
 <small>and frustration</small>
 
 ### - jamieernest
+
+### new selenium version no work must downgrade to 4.14.0 or something like that

@@ -22,4 +22,5 @@ for i in range(10):
    login(url, "userName", username, "pwd", password, "Submit")
    sleep(3600)
 driver.quit()
+sleep(10)
 os.system("python index.py")
