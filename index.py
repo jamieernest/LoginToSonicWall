@@ -8,7 +8,10 @@ username = conf['sonicwallLogin']['username']
 password = conf['sonicwallLogin']['password']
 url = conf['sonicwallLogin']['url']
 
-driver = webdriver.Chrome()
+options = webdriver.ChromeOptions()
+options.add_argument('ignore-certificate-errors')
+
+driver = webdriver.Chrome(chrome_options=options)
 
 def login(url,usernameId, username, passwordId, password, submit_buttonId):
    driver.get(url)
